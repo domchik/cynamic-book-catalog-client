@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    @apply bg-blue-500 text-white py-2 px-3 rounded;
+}
+
+.inactive {
+    @apply text-gray-300 hover:text-white cursor-pointer;
+}
