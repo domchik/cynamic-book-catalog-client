@@ -101,7 +101,6 @@ const BookForm: React.FC<BookFormProps> = ({ initialBook , onSubmit}) => {
 
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-        debugger
         event.preventDefault();
         const hasErrors = validateForm();
         if (!hasErrors) {
